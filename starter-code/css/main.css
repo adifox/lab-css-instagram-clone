@@ -6,5 +6,92 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+h1 {
+    color: #06365f;
+    font-size: 20px;
+}
+a {
+    color: #648cad;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    color: grey;
+    font-weight: bold;
+}
+.background {
+    width: 100%;
+    height: 300px;
+    background: #4c799f;
+}
+.container {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+}
+.mobile {
+    width: 318px;
+    height: 512px;
+    float: left;
+}
+.insta-container {
+    width: 506px;
+    float: right;
+}
+.mini-header {
+    height: 78px;
+    padding-top: 10px;
+}
+.logo {
+    float: left
+}
+.login {
+    width: 100px;
+    height: 35px;
+    color: #e4eaef;
+    font-weight: bold;
+    background: #5885a9;
+    border: 2px solid #285b84;
+    border-radius: 4px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.home {
+    float: left;
+}
+.login-text {
+    display: inline;
+    margin-left: 7px;
+}
+
+.text {
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+.app {
+    text-align: center;
+}
+.iphone, .android {
+    margin-left: 15px;
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    float: left;
 }
